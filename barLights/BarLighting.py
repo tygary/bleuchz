@@ -31,8 +31,8 @@ FRONT_RIGHT = range(149, 165)
 class BarLighting(object):
     pixels = None
     buttons = None
-    mode = 3
-    on_button = True
+    mode = 0
+    on_button = False
     mode_button = False
     mode_object = None
 
